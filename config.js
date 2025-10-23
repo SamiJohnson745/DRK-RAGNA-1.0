@@ -42,7 +42,7 @@ global.api_smd = "https://drk-tech-2.onrender.com/;
 global.scan = "https://drk-tech-2.onrender.com/";
 
 global.SESSION_ID =
-  process.env.SESSION_ID ||
+  process.env.SESSION_ID || ""
   "mettre votre session ici"
 module.exports = {
   menu: process.env.MENU || "1",
